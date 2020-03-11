@@ -1,0 +1,28 @@
+{
+  "name": "real-commits",
+  "version": "1.0.0",
+  "description": "A badge generator to show the \"real\" commits of a repository.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrueger/real-commits.git"
+  },
+  "keywords": [
+    "badge",
+    "generator",
+    "commits",
+    "awesome"
+  ],
+  "author": "H. Rüger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hrueger/real-commits/issues"
+  },
+  "homepage": "https://github.com/hrueger/real-commits#readme",
+  "dependencies": {
+    "@octokit/graphql": "^4.3.1",
+    "badgen": "^3.0.1",
+    "express": "^4.17.1",
+    "github-graphql-client": "^1.0.0",
+    "node-fetch": "^2.6.0"
+  }
+}
